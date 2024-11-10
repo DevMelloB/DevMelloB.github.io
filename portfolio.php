@@ -17,7 +17,7 @@ if (isset($_POST['submit']))
     }
     else
     {
-        echo '<script type="text/javascript">alert("Votre message n/'a été pas été envoyé");</script>';
+        echo '<script type="text/javascript">alert("Une probmeme est survenu lors de l\'envoi de votre message. Veillez réessayer");</script>';
         echo '<script type="text/javascript">window.location.href = window.location.href;</script>';
     }
 }
