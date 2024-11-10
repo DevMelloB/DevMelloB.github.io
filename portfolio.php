@@ -2,9 +2,9 @@
 if (isset($_POST['submit']))
 {
     $to = "m.brett.pro@gmail.com"; // Your email address
-    $name =htmlspecialcharss( $_POST)['name'];
-    $from =htmlspecialcharss( $_POST)['email'];
-    $message = htmlspecialcharss( $_POST)['message'];
+    $name =htmlspecialchars( $_POST)['name'];
+    $from =htmlspecialchars( $_POST)['email'];
+    $message = htmlspecialchars( $_POST)['message'];
     $subject = "Contact Form Submission";
     $headers = "From:" . $from;
     $result = mail($to, $subject, $message, $headers);
