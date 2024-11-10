@@ -1,0 +1,147 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:bisque;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 90.2%);
+}
+
+h1{
+   font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+}
+
+h2{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    font-size: 1.6em;
+    padding-top: 1em;
+    padding-bottom: 0.5em;  
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace;
+    color:white;
+    padding-top: 0.em;
+    font-size: 1.4em;
+}
+
+p {
+    line-height: 190%;
+    padding-bottom: 0.5em;
+    padding-top: 0.6em;
+} 
+
+span {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-nav .nav-link { /*Effet sur le lien du menu de navigation*/
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.4em;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{/*Effet sur le lien du menu de navigation quand on passe dessus*/
+    color: bisque;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.4em;
+}
+
+.logo {
+    border: solid 1px;
+    border-color: rgb(71, 70, 68);
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+    margin: 1em;
+}
+
+.image {
+    border: solid 1px;
+    border-color: rgb(71, 70, 68);
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+    margin-bottom: 1em;
+}
+
+.btn {/*Effet sur les boutons  sur lesquels on peut cliquer pour voir mon niveau de compétences*/
+    color:bisque;
+    background-color: transparent;
+    border: solid 1px;
+    border-color: rgb(71, 70, 68);
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+    font-size: 1.1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.stage { /*Effets pour appeler lèattention sur mon stage*/
+    color:black;
+    background-color:bisque;
+    opacity: 0.8;
+    border: solid 1px;
+    border-color: rgb(71, 70, 68);
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+    font-size: 1.1em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.shadow:hover {/*Effets sur les sections du site quand on passe dessus*/
+    background-color: transparent;
+    padding:1em;
+    border: solid 1px;
+    border-color: rgb(71, 70, 68);
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+}
+
+#myProgress { /*Effets sur la barre de progression*/
+    width: 100%;
+    background-color:grey;
+    margin-bottom: 1.8em;
+    margin-top: 1.8em;
+}
+  
+#myBar {/*Effets sur la barre de progression quand il a été cliqué*/
+    width: 1%;
+    height: 3em;
+    background-color:white;
+}
+
+input, select, textarea {/*Effets sur la partie ou les utilisateurs peut entrer des informations*/
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid black ; 
+    border-radius: 1em; 
+    box-sizing: border-box; 
+    margin-top: 1em;
+    margin-bottom: 1em; 
+    resize: vertical; 
+    box-shadow: 05px 10px rgba(153, 153, 153, 0.2);
+  }
+  input[type=submit] {/*Effets sur le bouton envoyer*/
+    background-color: bisque;
+    color:black;
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
+  }
+  
+  input[type=submit]:hover {/*Effets sur le bouton envoyer quand on est dessus*/
+    background-color: black;
+    color:white
+  }
+  
+  #contact {/*Effets sur la formulaire de contact*/
+    border-radius: 1em;
+    background-color:rgb(71, 70, 68) ;
+    padding: 1em;
+  }
