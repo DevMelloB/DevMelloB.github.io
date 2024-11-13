@@ -1,7 +1,9 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     color:bisque;
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 90.2%);
+    margin: 0;
 }
 
 h1{
@@ -23,7 +25,6 @@ h2{
 h3{
     font-family:'Courier New', Courier, monospace;
     color:white;
-    padding-top: 0.em;
     font-size: 1.4em;
 }
 
@@ -42,12 +43,13 @@ span {
     color: white;
     font-family:'Courier New', Courier, monospace;
     font-size: 1.4em;
+    line-height: 70%;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{/*Effet sur le lien du menu de navigation quand on passe dessus*/
     color: bisque;
     font-family:'Courier New', Courier, monospace;
-    font-size: 1.4em;
+    font-size: 1.6em;
 }
 
 .logo {
@@ -73,24 +75,11 @@ span {
     border-color: rgb(71, 70, 68);
     border-radius: 12px;
     box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
-    font-size: 1.1em;
+    font-size: 0.8em;
     margin-bottom: 1em;
     margin-top: 1em;
 }
 
-.stage { /*Effets pour appeler lèattention sur mon stage*/
-    color:black;
-    background-color:bisque;
-    opacity: 0.8;
-    border: solid 1px;
-    border-color: rgb(71, 70, 68);
-    border-radius: 12px;
-    box-shadow: 0 5px 10px rgba(153, 153, 153, 0.2);
-    font-size: 1.1em;
-    padding: 0.5em;
-    margin-bottom: 2em;
-    margin-top: 1em;
-}
 
 .shadow:hover {/*Effets sur les sections du site quand on passe dessus*/
     background-color: transparent;
@@ -110,7 +99,7 @@ span {
   
 #myBar {/*Effets sur la barre de progression quand il a été cliqué*/
     width: 1%;
-    height: 3em;
+    height: 1.5em;
     background-color:white;
 }
 
