@@ -3,7 +3,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color:bisque;
     background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgb(48, 48, 48) 90.2%);
-    margin: 0;
+    margin: 20px;
 }
 
 h1{
@@ -43,7 +43,7 @@ span {
     color: white;
     font-family:'Courier New', Courier, monospace;
     font-size: 1.4em;
-    line-height: 70%;
+    line-height: 90%;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{/*Effet sur le lien du menu de navigation quand on passe dessus*/
