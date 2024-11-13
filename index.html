@@ -12,160 +12,159 @@
   </head>
   <body>
     <main class="container-fluid p-5">
-        <div class="row m-3">
-            <div class= "col-xl-4 col-xs-12 sticky-lg-top"> <!--Logo et navigation collé à gauche et en haut pour grand ecran-->
-                 <img class="logo img-fluid"src="Melanie_Brett_Logo.gif" alt="Melanie Brett Logo"> 
-                 <nav class="navbar navbar-dark m-5">
-                  <ul class="navbar-nav"> 
+      <div class="row m-3">
+          <div class= "col-xl-4 col-xs-12 sticky-lg-top"> <!--Logo et navigation collé à gauche et en haut pour grand ecran-->
+               <img class="logo img-fluid"src="Melanie_Brett_Logo.gif" alt="Melanie Brett Logo"> 
+               <nav class="navbar navbar-dark m-5">
+                <ul class="navbar-nav"> 
+                  <li class="nav-item">
+                    <a class="nav-link" href="#moi">A propos de moi</a>
+                    </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#moi">A propos de moi</a>
-                      </li>
-                      <li class="nav-item">
-                      <a class="nav-link" href="#formation">Formation</a>
-                      </li>
-                      <li class="nav-item">
-                      <a class="nav-link" href="#projets">Projets</a>
-                      </li>
-                      <li class="nav-item">
-                      <a class="nav-link" href="#contact">Contact</a>
-                      <li class="nav-item">
-                      <a class="nav-link" href="https://cvdesignr.com/p/66fe846ca4343" target="_blank">Curriculum Vitae</a>
-                      </li>
-                  </ul> 
-              </nav>
-            </div>
-            <div class="col-xl-8 col-xs-12">
-                <section id="moi" class=" row shadow m-3"  data-aos="fade-right"> <!--Animation de gauche vers droite -->
-                  <h1>Melanie Brett : Stagiaire Developpeur Web</h1>
-                  <p>J'ai découvert le monde du développement Web et de la programmation en 2009, quand j'ai décidé de m'essayer à la mise à jour du site Web de l'entreprise que je dirigeais. Pendant plusieurs années, j'ai créé des sites web à l’aide du logiciel de gestion de contenu Wordpress.</p>
-                  <p>J'apprends maintenant à construire des interfaces utilisateur accessibles qui s'adaptent à tous les types d'appareils. J'aime particulièrement créer des applications qui ont une belle apparence, mais qui sont également bien construites. Pendant mon temps libre, je suis en train de concevoir et développer un site web pour une association. Lorsque je ne suis pas devant l’ordinateur, je danse, je lis, je promène mon chat en laisse ou je médite.</p> 
+                    <a class="nav-link" href="#formation">Formation</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#projets">Projets</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                    <li class="nav-item">
+                    <a class="nav-link" href="https://cvdesignr.com/p/66fe846ca4343" target="_blank">Curriculum Vitae</a>
+                    </li>
+                </ul> 
+            </nav>
+          </div>
+          <div class="col-xl-8 col-xs-12">
+              <section id="moi" class=" row shadow m-3"  data-aos="fade-right"> <!--Animation de gauche vers droite -->
+                <h1>Melanie Brett : Stagiaire Developpeur Web</h1>
+                <p>J'ai découvert le monde du développement Web et de la programmation en 2009, quand j'ai décidé de m'essayer à la mise à jour du site Web de l'entreprise que je dirigeais. Pendant plusieurs années, j'ai créé des sites web à l’aide du logiciel de gestion de contenu Wordpress.</p>
+                <p>J'apprends maintenant à construire des interfaces utilisateur accessibles qui s'adaptent à tous les types d'appareils. J'aime créer des applications qui ont une belle apparence, mais qui sont également bien construites. Pendant mon temps libre, je suis en train de concevoir et développer un site web pour une association. Lorsque je ne suis pas devant l’ordinateur, je danse, je lis, je promène mon chat en laisse ou je médite.</p> 
+              </section>
+          <div>
+              <section id="formation" class="row shadow m-3" data-aos="fade-left" ><!--Animation de droite vers gauche-->
+                  <h2>Titre Professionnel Developpeur Web et Web Mobile</h2>
+                  <p>Le titre professionnel de niveau 5 / Bac+2 se déroule pendant 8 mois en total, Jusqu'a décembre 2024 nous apprenons à développer la partie front-end des application web et web mobile et de mai 2025 jusqu'a mars 2025 a nous apprendrons à développer la partie back-end. Je suis à la recherche d'un stage en entreprise à partir du 6 janvier et jusuqu'au 7 mars 2025!
+                  </p>
+                  <p>Avant le stage nous nous concentrons sur la configuration de notre environnement de travail en fonction du projet, la maquettage des interfaces utilisateur, la réalisation des interfaces utilisateur statiques, et le développement de la la partie dynamique des applications web et web mobiles sécurisés et accessible à tous.
+                  </p> 
+                  <P>Pour voir mon progression dans l'apprentissage du programmation, cliquez sur les boutons ci-dessous.</P>
+                        <div class="col-xl-6 col-xs-12">
+                          <!--Boutons HTML qui affiche la barre de progression-->
+                            <button class="btn"onclick="moveHtml()" >HTML</button> 
+                            <button class="btn"onclick="moveCss()">CSS</button>
+                            <button class="btn"onclick="moveFigma()">Figma</button>
+                            <button class="btn"onclick="moveBootStrap()">BootStrap</button>
+                            <button class="btn"onclick="moveJavaScript()">JavaScript</button>
+                             <button class="btn"onclick="moveAjax()">Ajax</button>
+                            <button class="btn"onclick="moveJQuery()">JQuery</button>
+                             <button class="btn"onclick="movePhp()">PHP</button>
+                            <button class="btn"onclick="moveAngular()">Angular</button>
+                            <button class="btn"onclick="moveMySql()">SQL</button>
+                            <button class="btn"onclick="moveNodeJs()">NodeJs</button>
+                        </div>
+                        <div class="col-xl-6 col-xs-12">
+                          <div id="myProgress"><!--La barre de progression-->
+                            <div id="myBar">
+                            </div>
+                            </div>
+                        </div>
+                      </div> 
+                  </div>
                 </section>
-            <div>
-                <section id="formation" class="row shadow m-3" data-aos="fade-left" ><!--Animation de droite vers gauche-->
-                    <h2>Titre Professionnel Developpeur Web et Web Mobile</h2>
-                    <P>Pour voir mon progression dans l'apprentissage des langages de programmation, cliquez sur les boutons ci-dessous.</P>
-                          <div class="col-xl-6 col-xs-12">
-                            <!--Boutons HTML qui affiche la barre de progression-->
-                              <button class="btn"onclick="moveHtml()" >HTML</button> 
-                              <button class="btn"onclick="moveCss()">CSS</button>
-                              <button class="btn"onclick="moveFigma()">Figma</button>
-                              <button class="btn"onclick="moveBootStrap()">BootStrap</button>
-                              <button class="btn"onclick="moveJavaScript()">JavaScript</button>
-                              <button class="btn"onclick="moveJQuery()">JQuery</button>
-                              <button class="btn"onclick="moveAjax()">Ajax</button>
-                              <button class="btn"onclick="moveAngular()">AngularJs</button>
-                              <button class="btn"onclick="movePhp()">PHP</button>
-                              <button class="btn"onclick="moveReact()">React</button>
-                              <button class="btn"onclick="moveMySql()">MySQL</button>
-                              <button class="btn"onclick="moveNodeJs()">NodeJs</button>
-                          </div>
-                          <div class="col-xl-6 col-xs-12">
-                            <div id="myProgress"><!--La barre de progression-->
-                              <div id="myBar">
-                              </div>
-                              </div>
-                          </div>
-                            <p>Le titre professionnel de niveau 5 / Bac+2 se déroule pendant 8 mois en total, Jusqu'a décembre 2024 nous apprenons à développer la partie front-end des application web et web mobile et de mai 2025 jusqu'a mars 2025 a nous apprendrons à développer la partie back-end.</p>
-                            <button class="stage">Je suis à la recherche d'un stage en entreprise à partir du 6 janvier et jusuqu'au 7 mars 2025!</button>
-                            <p>Avant le stage nous nous concentrons sur l'installation et configuration de notre environnement de travail en fonction du projet web ou web mobile, la maquettage des interfaces utilisateur, la réalisation des interfaces utilisateur statiques, et le développement de la la partie dynamique des applicationsweb sécurisés et accessible à tous.
-                            </p> 
-                        </div> 
-                    </div>
-                  </section>
-          <div class="row">
-            <div class="col-xl-4 col-md-6 col-xs-12">
-            </div>  
-            <div class="col-xl-8 col-md-6 col-xs-12">
-                <section id="projets" data-aos="fade-right"><!--Animation de gauche vers droite -->
-                    <div class="row shadow m-3">   
-                        <div class="row "><!--Ligne imbriqée avec deux colomns --> 
-                          <h2>Projets</h2> 
-                          <div class="col-xl-5 col-md-12">
-                            <img class="image img-fluid" src="jeuvideo.webp" alt="Jouer au jeu video">
-                          </div>
-                          <div class="col-xl-7 col-md-12">
-                            <h3>Jeu video avec chatbot</h3>
-                            <p><span>Projet en cours</span> : Travail en groupe de 6 personnes. Création d'un site web avec un jeu video et un chatbot. Conception et maquettage avec Figma. Language de programmation: HTML, CSS, Bootstrap JavaScript, Typescript, Node.js. Développement sur une machine en locale et en collaboration sur GitHub. Pour le moment, je travail sur la page index, et j'ai créé un header et un bar de navigation et un footer qui s'adapt aux ecrans de differents tailles. </p> 
-                          </div>
-                        </div>  
-                    <div class="row"><!--Ligne imbriqée avec deux colomns --> 
-                      <div class="col-xl-5 col-md-12">
-                        <img class="image img-fluid" src="strayhearts.webp"  alt="Stray hearts logo">
-                      </div>
-                      <div class="col-xl-7 col-md-12">
-                          <h3>Stray hearts</h3>
-                          <p><span>Projet en cours</span> : Création d'un nouveau site web pour une association en utilisant HTML,CSS, BootStrap et JavaScript. Conception et maquettage avec Figma. Développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et ecriture du texte pour s'assurer un bon SEO.</p> 
-                      </div>
-                    </div>
-                    </div>  
-                    <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
-                      <div class="col-xl-5 col-md-12">
-                          <img class="image img-fluid" src="reefgliders.webp" alt="Dauphins en mer">
-                      </div>
-                      <div class="col-xl-7 col-md-12">
-                          <h3>Reef Gliders</h3>
-                          <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de mes propres photos et ecrits.
-                            </p> 
-                      </div>
-                    </div>  
-                    <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+        <div class="row">
+          <div class="col-xl-4 col-md-6 col-xs-12">
+          </div>  
+          <div class="col-xl-8 col-md-6 col-xs-12">
+              <section id="projets" data-aos="fade-right"><!--Animation de gauche vers droite -->
+                  <div class="row shadow m-3">   
+                      <div class="row "><!--Ligne imbriqée avec deux colomns --> 
+                        <h2>Projets</h2> 
                         <div class="col-xl-5 col-md-12">
-                          <img class="image img-fluid" src="octopus.webp" alt="Octopus Dive School logo">
+                          <img class="image img-fluid" src="jeuvideo.webp" alt="Jouer au jeu video">
                         </div>
                         <div class="col-xl-7 col-md-12">
-                          <h3>Octopus Dive School</h3>
-                          <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de mes propres photos et ecrits.</p> 
+                          <h3>Jeu video avec chatbot</h3>
+                          <p><span>Projet en cours</span> : Travail en groupe de 6 personnes. Création d'un site web avec un jeu video et un chatbot. Conception et maquettage avec Figma. Language de programmation: HTML, CSS, Bootstrap JavaScript, Typescript, Node.js. Développement sur une machine en locale et en collaboration sur GitHub. Pour le moment, je travail sur la page index, et j'ai créé un header et un bar de navigation et un footer qui s'adapt aux ecrans de differents tailles. </p> 
                         </div>
                       </div>  
-                      <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
-                          <div class="col-xl-5 col-md-12">
-                              <img class="image img-fluid" src="bayviewsuites.webp" alt="Bay View Suites vue de la mer">
-                          </div>
-                          <div class="col-xl-7 col-md-12">
-                              <h3>Bay View Suites</h3>
-                              <p>Création d'un nouveau site web pour une location de vacances en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Utilisation demes propres photos et oecrits.</p> 
-                          </div>
-                        </div>  
-                      <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+                  <div class="row"><!--Ligne imbriqée avec deux colomns --> 
+                    <div class="col-xl-5 col-md-12">
+                      <img class="image img-fluid" src="strayhearts.webp"  alt="Stray hearts logo">
+                    </div>
+                    <div class="col-xl-7 col-md-12">
+                        <h3>Stray hearts</h3>
+                        <p><span>Projet en cours</span> : Création d'un nouveau site web pour une association en utilisant HTML,CSS, BootStrap et JavaScript. Conception et maquettage avec Figma. Développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et ecriture du texte pour s'assurer un bon SEO.</p> 
+                    </div>
+                  </div>
+                  </div>  
+                  <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+                    <div class="col-xl-5 col-md-12">
+                        <img class="image img-fluid" src="reefgliders.webp" alt="Dauphins en mer">
+                    </div>
+                    <div class="col-xl-7 col-md-12">
+                        <h3>Reef Gliders</h3>
+                        <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de mes propres photos et ecrits.
+                          </p> 
+                    </div>
+                  </div>  
+                  <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+                      <div class="col-xl-5 col-md-12">
+                        <img class="image img-fluid" src="octopus.webp" alt="Octopus Dive School logo">
+                      </div>
+                      <div class="col-xl-7 col-md-12">
+                        <h3>Octopus Dive School</h3>
+                        <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de mes propres photos et ecrits.</p> 
+                      </div>
+                    </div>  
+                    <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
                         <div class="col-xl-5 col-md-12">
-                            <img class="image img-fluid" src="roatandivers.webp" alt="Plongeur en mer">
+                            <img class="image img-fluid" src="bayviewsuites.webp" alt="Bay View Suites vue de la mer">
                         </div>
                         <div class="col-xl-7 col-md-12">
-                            <h3>Roatan Divers</h3>
-                            <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine locale suivi d'un déploiement sur un serveur hébergé. Utilisation de mes propres photos et ecrits.</p> 
-                          </div>
-                        </div>
-                      <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
-                        <div class="col-xl-5 col-md-12">
-                            <img class="image img-fluid" src="lilypond.webp" alt="étang aux nénuphars">
-                        </div>
-                        <div class="col-xl-7 col-md-12">
-                            <h3>Lily Pond House</h3>
-                            <p>Création d'un nouveau site web pour un hôtel en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de  mes propres photos et ecrits.</p> 
+                            <h3>Bay View Suites</h3>
+                            <p>Création d'un nouveau site web pour une location de vacances en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Utilisation demes propres photos et oecrits.</p> 
                         </div>
                       </div>  
-                    </div> 
-                  </section>
-                      <div class="row m-4">
-                        <div class="col-xl-4 col-md-12"> <!--Ligne imbriqée avec deux colomns -->  
-                    </div>
-                  <section id="contact" class="col-xl-8 col-md-6 col-xs-12">
-                      <form method="post" action="/portfolio.php"><!--Lien avec page php pour envoyer un email avec ce qui est dans la formulaire  --> 
-                        <input type="text" id="name" name="lastname" placeholder="Votre nom...">
-                        <input type="email" id="email" name="mail" placeholder="Votre adresse email...">
-                        <textarea id="subject" name="message" placeholder="Votre message..." style="height:200px"></textarea>
-                        <input type="submit" name="submit" value="Envoyer">
-                      </form>  
+                    <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+                      <div class="col-xl-5 col-md-12">
+                          <img class="image img-fluid" src="roatandivers.webp" alt="Plongeur en mer">
+                      </div>
+                      <div class="col-xl-7 col-md-12">
+                          <h3>Roatan Divers</h3>
+                          <p>Création d'un nouveau site web pour une centre de plongée sous-marine en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine locale suivi d'un déploiement sur un serveur hébergé. Utilisation de mes propres photos et ecrits.</p> 
+                        </div>
+                      </div>
+                    <div class="row shadow m-3"><!--Ligne imbriqée avec deux colomns --> 
+                      <div class="col-xl-5 col-md-12">
+                          <img class="image img-fluid" src="lilypond.webp" alt="étang aux nénuphars">
+                      </div>
+                      <div class="col-xl-7 col-md-12">
+                          <h3>Lily Pond House</h3>
+                          <p>Création d'un nouveau site web pour un hôtel en utilisant Wordpress, HTML et CSS. Conception et développement sur une machine en locale suivi d'un déploiement sur un serveur hébergé. Conception du logo et autres supports marketing. Utilisation de  mes propres photos et ecrits.</p> 
+                      </div>
+                    </div>  
+                  </div> 
                 </section>
-        </div>
-    </main>
-    <script src="script.js"></script> <!--Lien avec page Javascript pour animer la barre de progression -->      
-    <!--Bootstrap Bundle with Popper pour la mise en forme-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- Aos javascript pour les animations-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+                    <div class="row m-4">
+                      <div class="col-xl-4 col-md-12"> <!--Ligne imbriqée avec deux colomns -->  
+                  </div>
+                <section id="contact" class="col-xl-8 col-md-6 col-xs-12"data-aos="fade-left">
+                    <form method="post" action="/portfolio.php"><!--Lien avec page php pour envoyer un email avec ce qui est dans la formulaire  --> 
+                      <input type="text" id="name" name="lastname" placeholder="Votre nom...">
+                      <input type="email" id="email" name="mail" placeholder="Votre adresse email...">
+                      <textarea id="subject" name="message" placeholder="Votre message..." style="height:200px"></textarea>
+                      <input type="submit" name="submit" value="Envoyer">
+                    </form>  
+              </section>
+      </div>
+  </main>
+  <script src="script.js"></script> <!--Lien avec page Javascript pour animer la barre de progression -->      
+  <!--Bootstrap Bundle with Popper pour la mise en forme-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Aos javascript pour les animations-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
